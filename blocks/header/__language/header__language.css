@@ -4,3 +4,10 @@
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+    .header__language {
+        font-size: 18px;
+        line-height: 20px;
+    }
+  }

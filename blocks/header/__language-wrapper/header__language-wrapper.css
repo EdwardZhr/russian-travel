@@ -1,6 +1,12 @@
 .header__language-wrapper {
-    width: 78px;
+    width: 77px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+    .header__language-wrapper {
+        width: 62px;
+    }
+  }
