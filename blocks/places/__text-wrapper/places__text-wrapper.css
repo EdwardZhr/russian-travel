@@ -1,0 +1,9 @@
+.places__text-wrapper {
+    align-items: end;
+}
+
+@media screen and (max-width: 767px) {
+    .places__text-wrapper {
+        margin-top: 32px;
+    }
+}
