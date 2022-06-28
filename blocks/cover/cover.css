@@ -1,33 +1,32 @@
 .cover {
-    background: url(../../images/overlay.png) no-repeat;
-    background-size: 100% 100%;
+    background: url(../../images/overlay.png) no-repeat center;
+    background-size: cover;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 92px 48px 0;
-    min-height: 740px;
-    background-origin: content-box;
-    position: relative;
+    margin: 92px 48px 0;
+}
+
+.cover::after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: -1px;
+    padding-top: calc(740 / 1184 * 100%);
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
-        padding: 92px 0 0;
-        min-height: 640px;
+        margin: 92px 0 0;
     }
   }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        padding: 90px 0 0;
-        min-height: 480px;
+        margin: 90px 0 0;
     }
   }
 
 @media screen and (max-width: 424px) {
     .cover {
-        padding: 66px 0 0;
-        min-height: 300px;
-        background-size: cover;
+        margin: 66px 0 0;
     }
-  }
+}
