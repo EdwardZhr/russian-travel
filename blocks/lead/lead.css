@@ -27,5 +27,6 @@
     .lead {
         min-width: 320px;
         padding: 48px 0 0;
+        margin: 0;
     }
   }
