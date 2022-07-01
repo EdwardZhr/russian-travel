@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+.header__language:hover {
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 767px) {
     .header__language {
         font-size: 18px;

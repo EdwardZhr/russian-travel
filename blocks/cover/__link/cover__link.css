@@ -1,6 +1,7 @@
 .cover__link {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     text-decoration: none;
     width: 100%;

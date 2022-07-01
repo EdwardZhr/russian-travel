@@ -3,14 +3,7 @@
     background-size: cover;
     display: flex;
     margin: 92px 48px 0;
-}
-
-.cover::after {
-    content: "";
-    width: 0;
-    height: 0;
-    margin-left: -1px;
-    padding-top: calc(740 / 1184 * 100%);
+    aspect-ratio: 1184 / 740;
 }
 
 @media screen and (max-width: 1279px) {
