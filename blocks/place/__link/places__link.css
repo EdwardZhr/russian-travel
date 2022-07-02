@@ -1,15 +1,15 @@
-.places__link {
+.place__link {
     font-size: 18px;
     line-height: 22px;
     color: white;
 }
 
-.places__link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
-    .places__link {
+    .place__link {
         padding: 0 16px;
     }
   }
