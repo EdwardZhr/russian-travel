@@ -1,4 +1,4 @@
-# Путешествие по России ([russian-travel](https://pnrf.github.io/russian-travel/))
+# Путешествие по России ([russian-travel](https://edwardzhr.github.io/russian-travel/))
 
 ### Стек технологий:
 * HTML;
